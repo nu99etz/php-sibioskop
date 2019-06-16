@@ -1,0 +1,3 @@
+# Ekstrak TA_PSI.zip lalu pindahkan ke folder htdocs XAMPP
+# buat database bioskop lalu import bioskop.sql
+# coba akses ke localhost apakah work atau tidak
