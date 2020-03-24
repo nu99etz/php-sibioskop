@@ -1,0 +1,71 @@
+<html>
+<head>
+	<title>Coba CSS</title>
+	<link rel="stylesheet" type="text/css" href="mystle.css" media="all">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<script src="responsive.js"></script>
+</head>
+<body>
+<div class="header">
+  <h1>Bioskop 24</h1>
+  <p>Sebuah Sistem Informasi Pembayaran Tiket Bioskop</p>
+</div>
+<div class="topnav" id="myTopnav">
+  <a href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-fw fa-user"></i> Akun 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+  <a href="#about"><i class="fa fa-fw fa-user"></i> About</a>
+  <a href="javascript:void(0);" class="icon" style="float: left;" onclick="myFunction()">&#9776;</a>
+</div>	
+<div class="main">
+  <div class="grid-container">
+  <div class="item1">Rabbids Invasion Bwa-bwa<br/>
+  Kategori</div>
+  <div class="item2"><center><img src="3.jpg"></center></div>
+  <div class="item3">128 min<br/>
+    <button class="btn default">AGE</button> <button class="btn default">QUALITY</button><br/>
+    <button  id="myBtn" class="btn custom">Pesan</button>
+  </div>
+  <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <form action="/action_page.php">
+  <h2>Register Form</h2>
+  <div class="input-container">
+    <i class="fa fa-user input-icon"></i>
+     <input class="input-field" type="text" placeholder="Username" name="usrnm">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-envelope input-icon"></i>
+     <input class="input-field" type="text" placeholder="Email" name="email">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-key input-icon"></i>
+     <input class="input-field" type="password" placeholder="Password" name="psw">
+  </div>
+  <button type="submit" class="btn-input">Register</button>
+</form>
+  </div>
+
+</div> 
+  <div class="item4"></div> 
+  <div class="item5">Deskripsi Singkat</div>
+</div>
+</div>
+<div class="footer">
+	<p>Created By Nugraha</p>
+</div>
+<script src="modal.js"></script>
